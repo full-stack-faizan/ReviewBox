@@ -1,0 +1,168 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+.main{
+    height: 100vh;
+    width: 100vw;
+    background-color:#ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.second{
+    height: 60vh;
+    width: 40vw;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+h1{
+   
+    font-size: 3rem;
+    color: hsl(209, 61%, 16%);
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+  
+}
+.user{
+ 
+background-color: #ffffff;
+height: 50rem;
+width: 36rem;
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.imgcircle{
+    background-color: #ffffff;
+    height: 13rem;
+    width: 13rem;
+    border-radius: 50%;
+    text-align: center;
+    background-size: 100% 100%;
+    margin-bottom: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#image{
+    background-size: 100% 100%;
+    height: 13rem;
+    width: 13rem;
+    border-radius: 50%;
+}
+.name{
+    font-size: 2rem;
+    font-weight: bolder;
+    text-align: center;
+    height: 3rem;
+    width: 18rem;
+    color: hsl(209, 61%, 16%);
+    margin-top: 3px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.rank{
+    font-size: 1.3rem;
+    font-weight: bolder;
+    margin-top: 3px;
+    text-align: center;
+    height: 2rem;
+    width: 18rem;
+    color: hsl(205, 78%, 60%);
+    font-family: 'Open Sans', sans-serif;
+}
+.phara{
+    
+    margin-top: 3px;
+    text-align: center;
+    height: 13rem;
+    width: 35rem;
+    color: hsl(209, 36%, 36%);
+   font-size: 1.5rem;
+   font-family: 'Open Sans', sans-serif;
+}
+p{
+  
+    height: 13rem;
+    width: 35rem;
+    text-align: right;
+    
+    
+}
+
+.arrowkeys{
+    margin-top: 3px;
+    text-align: center;
+    height: 3rem;
+    width: 8rem;
+   
+    font-size: 3rem;
+    font-weight: bold;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.leftar{
+    height: 3rem;
+    width: 3rem;
+    font-size: 2rem; 
+    font-weight: bolder;
+    outline: none;
+    border: none;
+   color: hsl(205, 90%, 76%);
+}
+.leftar:active{
+    background-color: #ffffff;
+}
+.rightar:hover{
+    background-color: #ffffff;
+}
+
+.rightar{
+    height: 3rem;
+    width: 3rem;
+    font-size: 2rem; 
+    font-weight: bolder;
+    border: none;
+    color: hsl(205, 90%, 76%);
+}
+
+.next{
+    margin-top: 3px;
+    height: 3rem;
+    width: 8rem;
+    font-size: 1.2rem;
+    font-weight: bold; 
+    color: hsl(205, 78%, 60%);
+    border-radius: 1rem;
+    box-shadow: 2px 2px 6px 1px hsl(205, 90%, 76%);
+    outline: none;
+    border: 2px solid hsl(205, 78%, 60%);
+    background-color: hsl(205, 100%, 96%);
+}
+
+.next:hover{
+    background-color: hsl(205, 78%, 60%);
+    color: hsl(209, 61%, 16%);
+    transition: all 0.3s linear;
+}
